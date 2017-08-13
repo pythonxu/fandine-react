@@ -6,7 +6,7 @@ class Login extends Component {
     return (
       <div className="login">
         <div className="top-wrapper">
-          111
+          <image className="cancel"></image>
         </div>
         <div className="center-wrapper">
 

@@ -93,6 +93,7 @@ module.exports = {
     extensions: ['.web.js', '.js', '.json', '.web.jsx', '.jsx'],
     alias: {
       'common': resolve('src/common'),
+      'base': resolve('src/base'),
       'components': resolve('src/components'),
       'routes': resolve('src/routes'),
       // Support React Native Web

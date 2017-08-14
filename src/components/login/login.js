@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import InputView from 'base/inputView/inputView'
 import './login.styl'
 
 class Login extends Component {
@@ -9,7 +10,7 @@ class Login extends Component {
           <image className="cancel"></image>
         </div>
         <div className="center-wrapper">
-
+          <InputView typestyle="text" typeimg="icon_phone"/>
         </div>
       </div>
     )

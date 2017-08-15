@@ -7,5 +7,5 @@ import registerServiceWorker from './registerServiceWorker';
 // 把一些基础样式导入
 import 'common/stylus/index.styl'
 
-ReactDOM.render(<Login />, document.getElementById('root'));
+ReactDOM.render(<Login/>, document.getElementById('root'));
 registerServiceWorker();

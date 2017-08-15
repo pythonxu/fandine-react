@@ -10,7 +10,7 @@ class Login extends Component {
           <image className="cancel"></image>
         </div>
         <div className="center-wrapper">
-          <InputView typestyle="text" typeimg="icon_phone"/>
+          <InputView inputType="text" inputImg="./icon_phone@2x.png"/>
         </div>
       </div>
     )

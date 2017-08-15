@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import './inputView.styl'
 
-class Login extends Component {
+class Login extends Component {s
   render() {
-    const {typestyle, typeimg} = this.props
-
+    const {inputType, inputImg} = this.props
     return (
       <div className="inputView">
-        <div style={styleimg} className="input-left" ></div>
-        <input type={typestyle}/>
+        <img src={require(`${inputImg}`)} className="input-left" ></img>
+        <input type={inputType}/>
         <div className="input-right"></div>
       </div>
     )

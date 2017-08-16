@@ -1,10 +1,23 @@
 @import "~common/stylus/mixin"
+@import "~common/stylus/variable"
 
 .inputView
   height: 40px
   width: 100%
-  vertical-align:middle;
   .input-left
-    height: 20px
-    width: 20px
-    background-size: 100% 100%;
+    height: 25px
+    width: 25px
+    margin: 2.5px 0 0 0
+    vertical-align: middle
+    background-size: 100% 100%
+  .input-center
+    height: 30px
+    width: 80%
+    margin: 0 0 0 5px
+    outline: none
+    border-bottom: 1px solid $color-fdgary
+    &:focus
+      border-bottom: 1px solid $color-fdred
+  .input-right
+    display: inline-block
+
